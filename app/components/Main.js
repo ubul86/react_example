@@ -53,6 +53,8 @@ class Main extends React.Component {
 
     render() {
         const {items, itemId} = this.state;
+        toastr.success('Page load is successfull');
+
         var modeComponent = (<Items items={items}></Items>);
         return modeComponent;
     }
