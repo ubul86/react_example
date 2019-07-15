@@ -56,6 +56,7 @@ class Main extends React.Component {
         toastr.success('Page load is successfull');
 
         var modeComponent = (<Items items={items}></Items>);
-        return modeComponent;
+        
+        return (modeComponent);
     }
 }

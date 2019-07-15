@@ -8,6 +8,7 @@ class Items extends React.Component {
     }    
 
     render() {        
+        console.log(1);
         const {items} = this.props;        
         var component=(
                 <div>
